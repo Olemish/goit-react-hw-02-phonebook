@@ -1,13 +1,16 @@
 .Phonebook {
   display: block;
   margin-top: 50px;
+  padding: 20px;
 }
 .text {
   font-size: x-large;
 }
 .Form__block {
   display: block;
-  font-size: large;
+  height: 200px;
+  width: 200px;
+
   padding: 10px;
   margin: 0;
   border: 1px solid black;
