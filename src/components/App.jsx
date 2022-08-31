@@ -64,17 +64,7 @@ class App extends React.Component {
     );
 
     return (
-      <div
-        className="Phonebook"
-        style={{
-          height: '100vh',
-          // display: 'flex',
-          // justifyContent: 'center',
-          // alignItems: 'center',
-          fontSize: 40,
-          color: '#010101',
-        }}
-      >
+      <div className="Phonebook">
         <h1 className="text">Phonebook</h1>
         <ContactForm
           onSubmit={this.handelSubmit}
